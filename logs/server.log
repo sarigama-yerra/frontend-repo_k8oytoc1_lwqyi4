@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 251 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.17:3000/
+7:03:04 PM [vite] warning: Duplicate "style" attribute in JSX element
+11 |        <div className="absolute inset-0">
+12 |          <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(0,201,167,0.15),transparent_40%,rgba(142,124,255,0.15))]" />
+13 |          <motion.div style={{ y }} className="absolute inset-0 opacity-25" style={{ backgroundImage: 'url(https://grainy-gradients.vercel.app/noise.svg)' }} />
+   |                                                                            ^
+14 |        </div>
+15 |        <div className="relative z-10 max-w-[900px] mx-auto px-6 md:px-10 text-center">
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/FinalCTA.jsx
